@@ -1,3 +1,4 @@
+require('dotenv').config();
 const nodemailer = require('nodemailer')
 
 const sendEmail = async(subject,message,send_to,sent_from,reply_to)=>{
