@@ -6,8 +6,8 @@ const sendEmail = async(subject,message,send_to,sent_from,reply_to)=>{
         host:process.env.EMAIL_HOST,
         port:587,
         auth:{
-            user:guganesh12345@outlook.com,
-            pass : 'gugan@25'
+            user:"guganesh12345@outlook.com",
+            pass : "gugan@25"
         },
         tls:{
             rejectUnauthorized :false
